@@ -5,7 +5,7 @@ import datetime
 
 
 #importing dataset
-dataset = pd.read_csv('dataset.csv')
+dataset = pd.read_csv('C:/Users/CAPTAIN VEE/Desktop/042AI/interview/Data2bots/detecting/data2bots/dataset.csv')
 
 #Initializing some important variables
 expired_date = str(datetime.date(2021, 1, 1))
@@ -22,4 +22,4 @@ for date in dates:
 dataset['obsolete'] = boolean_field
 
 #converting to json and storing in local directory
-dataset.to_json (r'C:\Users\CAPTAIN VEE\Desktop\042AI\interview\Data2bots\new_data.json')    
+dataset.to_json (r'C:/Users/CAPTAIN VEE/Desktop/042AI/interview/Data2bots/detecting/data2bots/dataset.csv')    
